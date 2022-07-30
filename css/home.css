@@ -24,8 +24,9 @@
 }
 .menu div{
     width: 17%;
-    height: 5%;
+    max-height: 5%;
     margin-top: 3%;
+    padding: 2%;
     background-color: #fff;
     border-radius: 5px;
     display: flex;
@@ -42,6 +43,7 @@
     align-items: center;
 }
 .menu div a{
+    text-align: center;
     text-decoration: none;
     font-size: 1vw;
 }
@@ -63,7 +65,8 @@
     font-size: 1.5rem;
 }
 .barra{
-    width: 25%;
+    max-width: 100%;
+    width: 32rem;
     height: 40%;
 }
 .elements{ 
@@ -88,7 +91,7 @@
     color: #fff;
     list-style: none;
     font-size: 0rem;
-    cursor: grab;
+    cursor: pointer;
 }
 .elements li:hover{
     height: max-content;
@@ -104,8 +107,18 @@
     display: none;
     justify-content: space-around;
     position: absolute;
-    top: 98.2%;
+    top: 97%;
+    font-size: 1vw;
+}
+
+.redes a{
     color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.redes a:active{
+    cursor: grabbing;
 }
 
 .vercontactos{
