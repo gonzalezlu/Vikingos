@@ -54,7 +54,6 @@
     object-fit: scale-down;
     margin-left: 92%;
     position: absolute;
-    background-color: ;
 }
 .logo{
     width: 25%;
@@ -81,7 +80,7 @@
     flex-direction: column;
 }
 
-.linea {
+.linea{
     width: 95%;
     height: 3rem;
     display: flex;
