@@ -8,7 +8,7 @@
     position: relative;
 }
 .menu{
-    width: 75%;
+    width: 80%;
     display: flex;
     padding-right: 25rem;
     flex-direction: column;
@@ -22,8 +22,6 @@
     color: #fff;
     text-align: center;
 }
-
-
 .menu div{
     width: 17%;
     height: 5%;
@@ -48,55 +46,68 @@
     font-size: 1vw;
 }
 .cantante{
-
     max-width: 26.3%;
-    height: 100%;
+    height: 94.5%;
     object-fit: scale-down;
-    margin-left: 92%;
+    margin-top: 3.6%;
+    margin-left: 91%;
     position: absolute;
 }
 .logo{
     width: 25%;
     margin-top: 2%;
 }
-
-
 .barra:hover ul > li{
     width: 100%;
     transition: 1s;
     font-size: 1.5rem;
 }
-
-
 .barra{
     width: 25%;
     height: 40%;
 }
-
-
 .elements{ 
-    width: 0%;
+    width: 100%;
     justify-content: flex-start;
     flex-direction: column;
 }
-
 .linea{
-    width: 95%;
+    width: 100%;
     height: 3rem;
     display: flex;
     align-items: center;
 }
-
 .linea div{
     width: 100%;
     height: 1rem;
     background-color: #fff;
 }
-
 .elements li{
     margin-top: 1rem;
     margin-left: 1rem;
     color: #fff;
     list-style: none;
     font-size: 0rem;
+    cursor: grab;
+}
+.elements li:hover{
+    height: max-content;
+    color: #808080;
+}
+.elements li:active{
+  cursor: grabbing;
+}
+
+.redes{
+    width: 50%;
+    height: max-content;
+    display: none;
+    justify-content: space-around;
+    position: absolute;
+    top: 98.2%;
+    color: #fff;
+}
+
+.vercontactos{
+    display: flex;
 }
