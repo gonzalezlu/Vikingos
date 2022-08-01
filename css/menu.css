@@ -1,0 +1,147 @@
+
+body{
+    background-color: var(--color1);
+}
+
+.background {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+
+.barra:hover ul>li {
+    width: 100%;
+    transition: 1s;
+    font-size: 1.5rem;
+}
+
+.barra {
+    max-width: 100%;
+    width: 30rem;
+    height: 40%;
+}
+
+.linea {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+.linea div {
+    width: 100%;
+    height: 1rem;
+    background-color: #fff;
+}
+.elements {
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.elements li {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: #fff;
+    list-style: none;
+    font-size: 0rem;
+    cursor: pointer;
+}
+
+.elements li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.elements li a:hover {
+    height: max-content;
+    color: #808080;
+}
+
+.elements li:active {
+    cursor: grabbing;
+}
+
+
+.menu{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.menu div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+.precio{
+    width: 100%;
+    display: flex;
+}
+
+.precio p{
+    width: 5rem;
+    display: flex;
+    color: #fff;
+
+}
+
+.menu div div{
+    width: 50%;
+    flex-direction: column;
+}
+
+.menu div div h1{
+    color:#fff;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.menu div div ul li{
+    color: #fff;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.redes {
+    width: 50%;
+    height: max-content;
+    display: none;
+    justify-content: space-around;
+    position: absolute;
+    top: 97%;
+    font-size: 1vw;
+}
+
+.redes a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.redes a:active {
+    cursor: grabbing;
+}
+
+.vercontactos {
+    display: flex;
+}

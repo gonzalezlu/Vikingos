@@ -1,13 +1,12 @@
-
-
-.background{
+.background {
     width: 100%;
     height: 100vh;
     background-color: #8C0E03;
     display: flex;
     position: relative;
 }
-.menu{
+
+.menu {
     width: 80%;
     display: flex;
     padding-right: 25rem;
@@ -16,15 +15,17 @@
     align-items: center;
     justify-content: center;
 }
-.menu h1{
+
+.menu h1 {
     font-size: 6.9vw;
     font-family: 'Montserrat';
     color: #fff;
     text-align: center;
 }
-.menu div{
+
+.menu div {
     width: 17%;
-    max-height: 5%;
+    height: 5%;
     margin-top: 3%;
     padding: 2%;
     background-color: #fff;
@@ -33,7 +34,8 @@
     justify-content: space-around;
     align-items: center;
 }
-.menu div:hover{
+
+.menu div:hover {
     width: 19%;
     transition: 5ms;
     display: flex;
@@ -42,12 +44,15 @@
     justify-content: space-around;
     align-items: center;
 }
-.menu div a{
+
+.menu div a {
+    font-family: 'Montserrat';
     text-align: center;
     text-decoration: none;
     font-size: 1vw;
 }
-.cantante{
+
+.cantante {
     max-width: 26.3%;
     height: 94.5%;
     object-fit: scale-down;
@@ -55,37 +60,41 @@
     margin-left: 91%;
     position: absolute;
 }
-.logo{
+
+.logo {
     width: 25%;
     margin-top: 2%;
 }
-.barra:hover ul > li{
+
+.barra:hover ul>li {
     width: 100%;
     transition: 1s;
     font-size: 1.5rem;
 }
-.barra{
+
+.barra {
     max-width: 100%;
     width: 32rem;
     height: 40%;
 }
-.elements{ 
-    width: 100%;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-.linea{
+
+.linea {
     width: 100%;
     height: 3rem;
     display: flex;
     align-items: center;
 }
-.linea div{
+.linea div {
     width: 100%;
     height: 1rem;
     background-color: #fff;
 }
-.elements li{
+.elements {
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.elements li {
     margin-top: 1rem;
     margin-left: 1rem;
     color: #fff;
@@ -93,15 +102,22 @@
     font-size: 0rem;
     cursor: pointer;
 }
-.elements li:hover{
+
+.elements li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.elements li a:hover {
     height: max-content;
     color: #808080;
 }
-.elements li:active{
-  cursor: grabbing;
+
+.elements li:active {
+    cursor: grabbing;
 }
 
-.redes{
+.redes {
     width: 50%;
     height: max-content;
     display: none;
@@ -111,16 +127,63 @@
     font-size: 1vw;
 }
 
-.redes a{
+.redes a {
     color: #fff;
     text-decoration: none;
     cursor: pointer;
 }
 
-.redes a:active{
+.redes a:active {
     cursor: grabbing;
 }
 
-.vercontactos{
+.vercontactos {
     display: flex;
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    .menu {
+        padding-right: 12rem;
+    }
+    .menu h1 {
+        width: 150%;
+        font-size: 10vw;
+    }    
+    .menu div {
+        width: 50%;
+        height: 6%;
+        margin-top: 50%;
+        padding: 2%;
+        background-color: #fff;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .menu div:hover {
+        width: 19%;
+        transition: 5ms;
+        display: flex;
+        background-color: #fff;
+        border-radius: 5px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .menu div a {
+        font-size: 3vw;
+    }
+    .cantante {
+        width: 30%;
+        margin-top: 210%;
+        margin-left: 120%;
+
+    }
+    .logo {
+
+        width: 100%;
+        margin-top: 50%;
+    }
+
 }
