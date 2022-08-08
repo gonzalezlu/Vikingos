@@ -9,7 +9,6 @@ body{
     position: relative;
 }
 
-
 .barra:hover ul>li {
     width: 100%;
     transition: 1s;
@@ -78,20 +77,20 @@ body{
 }
 
 .precio{
-    width: 100%;
+    width: 50%;
+    background-color: blue;
     display: flex;
+    flex-direction: column;
 }
 
 .precio p{
-    width: 5rem;
-    display: flex;
-    color: #fff;
 
+    color: #fff;
 }
 
-.menu div div{
-    width: 50%;
-    flex-direction: column;
+.postres{
+    width: 1%;
+    background-color: blue;
 }
 
 .menu div div h1{
